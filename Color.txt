@@ -1,0 +1,9 @@
+Turquoise: #4cbfa6
+
+Soft Lilac: #f6ebf4
+
+Purple: #482673
+
+Orchid: #ed0b70
+
+Digi Denim: #301008
