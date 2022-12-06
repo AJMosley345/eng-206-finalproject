@@ -53,6 +53,11 @@ const entries = [
         summary: 'Summary:',
         link: 'https://sites.hampshire.edu/blackaesthetics/files/2017/03/taylorpaul-blackaesthetics.pdf'
     },
+    {
+        citation: 'Browne, Ryan. “The $150 Billion Video Game Industry Grapples with a Murky Track Record on Diversity.” CNBC, CNBC, 14 Aug. 2020, https://www.cnbc.com/2020/08/14/video-game-industry-grapples-with-murky-track-record-on-diversity.html.',
+        summary: 'Summary:',
+        link: 'https://www.cnbc.com/2020/08/14/video-game-industry-grapples-with-murky-track-record-on-diversity.html'
+    },
 ]
 
 export default function Sources() {

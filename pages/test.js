@@ -6,11 +6,13 @@ import Header from '../components/Header';
 import Image from 'next/image';
 import streets_of_rage from '../public/images/streets_of_rage.jpg';
 import barret_wallace from '../public/images/barret_wallace.webp';
+import barrett_old from '../public/images/barrett_old.png';
 import miles_morales from '../public/images/miles_morales.webp';
 import quartet from '../public/images/quartet.jpeg';
 import punch_out from '../public/images/punch_out.jpeg';
 import tom_sawyer from '../public/images/tom_sawyer.png';
 import lee_everett from '../public/images/lee_everett.webp';
+import race_graph from '../public/images/race_graph.png';
 
 let timelineData = [
   {
@@ -70,7 +72,7 @@ let timelineData = [
   {
     text: 'Final Fantasy VII',
     date: '1997',
-    image: barret_wallace,
+    image: barrett_old,
     alt:"",
     description: 'A japanese made game that features the character "Barret Wallace". He is depicted as a strong, loud and large "black buck" kind of character, but throughout the game he gets much more depth and nuance than just being that.',
     good: false,
@@ -81,6 +83,14 @@ let timelineData = [
     image: '',
     alt:"",
     description: "After the wave of sports and celebrity games in the 90's and early 2000's. The amount of black led games dropped, but with it came black characters that had more depth than just being a celebrity or athlete." ,
+    good: true,
+  },
+  {
+    text: 'Diversity in Game Development',
+    date: "",
+    image: race_graph,
+    alt:"",
+    description: "Based on a survey conducted by the International Game Developers Association (IDGA), in 2019 about 2% of game developers were black. This makes sense in correlation to the lack of black protagonists in games as a whole." ,
     good: true,
   },
   {
