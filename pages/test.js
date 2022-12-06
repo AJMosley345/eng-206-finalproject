@@ -22,7 +22,7 @@ let timelineData = [
     good: true
   },
   {
-    text: "Early Days of Gaming",
+    text: "1980's - Early 2000's",
     date: "1980's - Early 2000's",
     image: '',
     description: "In the early days of video games, the representation of black people was very mixed, from what could be seen as good representation (Barret Wallace), to outright racist depictions (Jim from Square's Tom Sawyer). These games can be seen as major stepping stones, good and bad, for how black people will be represented.",
