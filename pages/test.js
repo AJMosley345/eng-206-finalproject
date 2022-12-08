@@ -14,6 +14,8 @@ import lee_everett from '../public/images/lee_everett.webp';
 import race_graph from '../public/images/race_graph.png';
 import marcus from '../public/images/marcus.webp';
 import chris from '../public/images/chris.webp';
+import mrsandman from '../public/images/mrsandman.webp';
+import genshin_impact from '../public/images/genshin_impact.png';
 
 let timelineData = [
   {
@@ -35,7 +37,7 @@ let timelineData = [
     date: '1986',
     image: quartet,
     alt:" ",
-    description: "One of the first games to have a black character, while it serves zero overall purpose to the game (since it doesn't have a story to begin with), it can still be seen as a major stepping stone in the eventual wave of games with black characters.",
+    description: "One of the first games to have a black character, which isn't even a good description for such a basic game. While it serves zero overall purpose to the game (since it doesn't have a story to begin with), it can still be seen as a major stepping stone in the eventual wave of games with black characters.",
     good: false,
   },
   {
@@ -43,7 +45,7 @@ let timelineData = [
     date: '1987',
     image: punch_out,
     alt:"",
-    description: 'One of the most popular NES games, featuring Mike Tyson. While it does have many characters that are different ethnicities and races, they are all stereotypes of their respective cultures.',
+    description: 'One of the most popular NES games, featuring Mike Tyson. While it does have many characters that are different ethnicities and races, they are all stereotypes of their respective cultures. For more info visit source: ',
     good: false,
   },
   {
@@ -87,11 +89,19 @@ let timelineData = [
     good: true,
   },
   {
+    text: 'Punch Out (2009)',
+    date: "2009",
+    image: mrsandman,
+    alt:"",
+    description: "A semi-remake/sequel of the original game, this one does a much better job at representing the respective cultures of the opponents. The overall presentation of the characters is much better, and the character Mr.Sandman, while not a fleshed out character, is still not an overly stereotypical representation of black people." ,
+    good: true,
+  },
+  {
     text: 'The Walking Dead',
     date: '2012',
     image: lee_everett,
     alt:"",
-    description: "A game that features Lee Everett. It is effectively a redemption story where he cares for a young girl during a zombie apocalypse. There isn't much to say in terms of how his race plays into the story, but he can be seen as a largely positive character.",
+    description: "A game that features Lee Everett. It is effectively a redemption story where he cares for a young girl during a zombie apocalypse. There isn't much to say in terms of how his race plays into the story, but he can be seen as a largely positive character. ",
     good: true,
   },
   {
@@ -111,6 +121,14 @@ let timelineData = [
     good: true
   },
   {
+    text: 'Resident Evil 5',
+    date: '2009',
+    image: chris,
+    description: "There isn't much to say about this game, it's set in Africa where you play as Chris Redfield killing Africans. Technically there is an in game reason, they're infected with a virus that makes them insane and attack you, but it still wasn't a good look. It actually had backlash against it in the fact that this was the 2nd time Capcom (the developer) had pulled this. This brings up the topic of japanese game developers being one of the worst offenders when it comes to black representation and stereotyping.",
+    alt: "",
+    good: false
+  },
+  {
     text: 'Marcus Holloway (Watch Dogs 2)',
     date: '2016',
     image: marcus,
@@ -119,12 +137,12 @@ let timelineData = [
     good: true
   },
   {
-    text: 'Resident Evil 5',
-    date: '2009',
-    image: chris,
-    description: "There isn't much to say about this game, it's set in Africa where you play as Chris Redfield killing a lot of Africans. Technically there is an in game reason, they're infected with a virus that makes them insane and attack you, but it still wasn't a good look. It actually had backlash against it in the fact that this was the 2nd time Capcom (the developer) had pulled this. This brings up the topic of japanese game developers being one of the worst offenders when it comes to black representation and stereotyping.",
+    text: 'Genshin Impact',
+    date: "2020-Ongoing",
+    image: genshin_impact,
     alt: "",
-    good: true
+    description: "One of the more egregious examples recently, Genshin Impact is an Action-Fantasy game set in a fictional world. It's separated into regions, and these regions are based on parts of the real world. This past summer, a region called Sumeru was released that was meant to represent Egypt/Northen Africa. Funnily enough, there were 0 dark skinned people within this region. The developer of the game is Hoyolab, and they are based in China, so I wouldn't be surprised if their culture has anything to do with their restraint to show actually dark-skinned characters. It is hard to show the whole region, but even the people who are supposed to be living in the desert are light skinned." ,
+    good: false,
   },
   {
     text: 'Lack of Options in Customization',
@@ -132,7 +150,7 @@ let timelineData = [
     image: '',
     description: "When it comes to RPGs/JRPGs there is always a severe lack of black hairstyles & facial features in their character creators. Whenever this is brought up, there is usually a small minority that likes to come out of the woodwork to push that criticism down. This obviously leads to poor representation of black people, because you can make the character's skin darker, but you can't actually represent what you want.",
     alt: "",
-    good: true
+    good: false
   },
   {
     text: 'Diversity in Game Development',
@@ -140,7 +158,15 @@ let timelineData = [
     image: race_graph,
     alt:"",
     description: "Based on a survey conducted by the International Game Developers Association (IDGA), in 2019 about 2% of game developers were black. This makes sense in correlation to the lack of black protagonists in games as a whole." ,
-    good: true,
+    good: false,
+  },
+  {
+    text: 'Where are we now?',
+    date: "Now",
+    image: '',
+    alt:"",
+    description: "If we take a look back on games before the 2000's, it can be said that the games industry has come a far way in the representation of black people and games that feature them. In my opinion, there is still work to be done in the grand scheme of things, as many asian countries still have poor representation of black people in their games, if they have any at all. There is a plethora of games now that feature black characters that are just black, nothing about the issues that plague black people or dive deeper into the history of those issues. Unfortunately, video games as a medium don't lend themselves well to those kinds of in depth topics." ,
+    good: false,
   },
 ]
 
@@ -179,7 +205,7 @@ export default function Test() {
                     if(data.image === ''){
                       return <></>
                     } else {
-                      return <Image alt='' style={{ width: '75%', height: '60%', margin: 3, alignSelf: 'center' }} src={data.image}/>
+                      return <Image alt='' style={{ width: '75%', height: '75%', margin: 3, alignSelf: 'center' }} src={data.image}/>
                     }
                   })()}
                   {(() => {

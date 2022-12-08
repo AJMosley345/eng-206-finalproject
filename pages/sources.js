@@ -9,7 +9,7 @@ const entries = [
         link: 'https://spritesanddice.com/features/barret-and-black-representation/'
     },
     {
-        citation: 'DuBois, W. E. B. “Criteria of Negro Art: (1926).” Within the Circle, Duke University Press, 1994, pp. 60–68.',
+        citation: 'DuBois, W. E. B. “Criteria of Negro Art: (1926).” Within the Circle, Duke University Press, 1994, pp. 60-68.',
         summary: 'Summary:',
         link: 'https://allisonbolah.com/site_resources/reading_list/DuBois.pdf'
     },
@@ -49,7 +49,7 @@ const entries = [
         link: 'https://techcrunch.com/2020/06/21/confronting-racial-bias-in-video-games/'
     },
     {
-        citation: 'Taylor, Paul. “Black Aesthetics.” Philosophy Compass, vol. 5, no. 1, 2010, pp. 1–15, https://doi.org10.1111/j.1747-9991.2009.00263.x.',
+        citation: 'Taylor, Paul. “Black Aesthetics.” Philosophy Compass, vol. 5, no. 1, 2010, pp. 1-15, https://doi.org10.1111/j.1747-9991.2009.00263.x.',
         summary: 'Summary:',
         link: 'https://sites.hampshire.edu/blackaesthetics/files/2017/03/taylorpaul-blackaesthetics.pdf'
     },
