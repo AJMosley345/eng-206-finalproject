@@ -99,7 +99,7 @@ let timelineData = [
     date: '2020',
     image: miles_morales,
     alt:"",
-    description: 'Miles Morales, the main character, is an afro-latino living in New York. There are touches of ',
+    description: "Miles Morales, the main character, is an afro-latino living in New York. There are touches of racism within the game, but most of it is a coming of age story with Miles being a hero. This isn't the first game to feature a black superhero, but it definitely stands as one of the best. Unfortunately, he is still somewhat of a sidekick in the grand scheme of the game.",
     good: true,
   },
   {
@@ -179,7 +179,7 @@ export default function Test() {
                     if(data.image === ''){
                       return <></>
                     } else {
-                      return <Image alt='' style={{ width: '60%', height: '60%', margin: 3, alignSelf: 'center' }} src={data.image}/>
+                      return <Image alt='' style={{ width: '75%', height: '60%', margin: 3, alignSelf: 'center' }} src={data.image}/>
                     }
                   })()}
                   {(() => {
